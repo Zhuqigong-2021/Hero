@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: "rubik", sans-serif;
+}
+
+nav {
+  background-color: transparent;
+  align-items: center;
+  color: white;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  margin-left: 20px;
+}
+.textContainer {
+  font-family: "rubik", sans-serif;
+}
+header {
+  position: relative;
+  height: 100vh;
+
+  background: linear-gradient(rgba(61, 60, 60, 0.1), rgb(0, 0, 0, 0.1)),
+    url(images/bk.jpg);
+  background-size: cover;
+}
+img {
+  width: 100px;
+  height: 60px;
+}
+.text {
+  background: url(images/viktorsmall.jpg) no-repeat;
+  background: linear-gradient(to right, #aab6c5, #fbfbfc, #a6b1be);
+
+  background-size: cover;
+
+  color: red;
+  font-size: 4.4rem;
+  line-height: 1.05;
+  font-weight: 800px;
+  margin-bottom: 32px;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p {
+  color: white;
+  font-size: 2.2rem;
+  margin-bottom: 48px;
+  line-height: 1.6;
+  font-family: "rubik", sans-serif;
+}
+
+.navbar {
+  margin-left: auto;
+  display: flex;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: 700;
+  width: 100%;
+  text-decoration: none;
+}
+.right {
+  display: flex;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+}
+.wrap {
+  position: absolute;
+
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 1px solid red; */
+}
+.wrapinner {
+  width: 50%;
+  margin-left: 30px;
+  /* border: 1px solid white; */
+  /* border: 1px solid white; */
+}
+.btn:visited,
+.btn:link {
+  background-color: #f97316;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 16px 32px;
+  border-radius: 100px;
+  display: inline-block;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.btn1 {
+  text-decoration: none;
+  color: white;
+  background-color: #f97316;
+  border-radius: 100px;
+  padding: 0 20px;
+  text-align: center;
+  font-weight: 400;
+}
